@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name GLou_TREK)(type Legacy)(uri ${KIPRJMOD}/GLou_TREK.lib)(options "")(descr ""))
+)
