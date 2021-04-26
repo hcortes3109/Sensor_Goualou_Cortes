@@ -91,5 +91,7 @@ Mais il faut retenir que le choix de la résistance aurait un impact sur la plag
 # 7. Contact
 
 Etudiant en 4ème année du Génie Physique de l'INSA de Toulouse
+
 **Arthur Goualou** : goualou.etud@insa-toulouse.fr
+
 **Hugo Cortes** : hcortes@etud.insa-toulouse.fr
