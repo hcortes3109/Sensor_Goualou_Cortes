@@ -4,11 +4,11 @@
 
 <!-- TOC depthFrom:2 -->
   - [1. Introduction](#1-Introduction)
-  - [2. Code Arduino](#2-Code_arduino)
+  - [2. Code Arduino](#2-Code-arduino)
   - [3. Kicad](#3-kicad)
-  - [4. Application Android](#4-Application_Android)
-  - [5. Résultats, datasheet](#5-resultats,_datasheet)
-  - [6. Conclusion et pistes d'amélioration](#5-conclusion_et_piste_d'amélioration)
+  - [4. Application Android](#4-Application-Android)
+  - [5. Résultats, datasheet](#5-resultats,-datasheet)
+  - [6. Conclusion et pistes d'amélioration](#5-conclusion-et-piste-d'amélioration)
   - [7. Contact](#7-Contact)
 <!-- /TOC -->
 
