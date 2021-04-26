@@ -2,6 +2,16 @@
 
 # Sommaire
 
+<!-- TOC depthFrom:2 -->
+  - [1. Introduction](#1-Introduction)
+  - [2. Code Arduino](#2-Codearduino)
+  - [3. Kicad](#3-kicad)
+  - [4. Application Android](#4-Application-Android])
+  - [5. Résultats, datasheet](#5-resultats-datasheet)
+  - [6. Conclusion et pistes d'amélioration](#5-conclusion-et-piste-d'amélioration)
+  - [7. Contact](#7-Contact)
+<!-- /TOC -->
+
 # 1. Introduction
 Ce projet a été réalisé au cours de l'unité de formation "du capteur au banc de test" de la 4ème année de la formation "Génie Physique" à l'INSA Toulouse. L'objectif de ce projet est de réaliser un capteur de déformation à base de graphite, qui est un très bon conducteur.
 
@@ -18,7 +28,7 @@ Nous présentons ci-dessous les différentes étapes de l'élaboration de notre 
 - Application android
 - Résultat, Datasheet
 
-# 2.Arduino
+# 2.Code Arduino
 Nous avons réalisé un code Arduino fonctionnel permettant de contrôler un amplificateur transimpédance, un encodeur rotatoire, un écran OLED ainsi qu'un module Bluetooth. Nous l'avons ensuite testé en effectuant nos premiers branchements.
 
 # 3. Kicad
@@ -29,7 +39,7 @@ Nous avons réalisé le design de notre shield à l'aide du logiciel KICAD
 # 4. Application Android
 Nous avons utilisé le logiciel MIT App Inventor afin de développer une application android APK, capable de communiquer et recevoir des données à distance à l'aide du module Bluetooth placé sur notre shield.
 Nous pouvons ainsi avec plus de confort et de lisibilité l'utiliser pour mesurer la variation de résistance de nos capteurs en fonction de la déformation.
-Notre application se présent sur le lien suivant : http://ai2.appinventor.mit.edu . 
+Notre application se présente sur le lien suivant : http://ai2.appinventor.mit.edu . 
 Celle-ci permet la connexion Bluetooth avec notre Shield, et nous affiche la valeur de résistance et de la tension en temps réel et nous trace également l’évolution de la résistance du capteur en fonction de sa déformation. 
 
 
@@ -38,3 +48,5 @@ Celle-ci permet la connexion Bluetooth avec notre Shield, et nous affiche la val
 Nous avons créé plusieurs capteurs, en les "coloriant" avec divers types de crayons à papier (HB,B,...). Ces différents crayons se différencient par la différence de la concentration de graphite. Nous avons pu avoir des résultats sur les crayons à papier B et HB. 
 
 # 6. Conclusion et Pistes d'amélioration
+
+# 7. Contact
