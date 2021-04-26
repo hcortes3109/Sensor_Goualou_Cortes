@@ -53,7 +53,8 @@ Nous avons donc conçu un circuit électronique qui nous permet de mesurer en so
 - amplificateur transimpédance
 
 La tension aux bornes du capteur étant très faible, du fait que la résistance du capteur soit très grande, il nous faut rajouter un amplificateur transimpédance afin que la tension de sortie du circuit électronique soit assez grande et donc mesurable.
-Notons que le gain de cet amplificateur dépend du rapport R3/R2, nous avons choisi ce rapport comme étant égal à 100, mais nous pourrions choisir autre chose si nous voulons modifier la plage de résistance à mesurer.
+Notons que le gain de cet amplificateur dépend du rapport R3/R2, nous avons choisi ce rapport comme étant égal à 100, mais nous pourrions choisir une valeur différente si nous voulons modifier la plage de résistance à mesurer.
+
 
 Une fois les tests réalisés, nous avons lancé l’impression de notre circuit via une photolithographie extrême ultraviolette (sous masque), puis après utilisation d’une solution dite de développement, nous avons procédé au perçage du PCB, permettant le soudage des composants.
 
