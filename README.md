@@ -7,8 +7,8 @@
   - [2. Code Arduino](#2-Code-arduino)
   - [3. Kicad](#3-kicad)
   - [4. Application Android](#4-Application-Android)
-  - [5. Résultats, datasheet](#5-resultats,-datasheet)
-  - [6. Conclusion et pistes d'amélioration](#5-conclusion-et-piste-d'amélioration)
+  - [5. Résultats et datasheet](#5-resultats-et-datasheet)
+  - [6. Conclusion et pistes d'amelioration](#5-conclusion-et-piste-d'amelioration)
   - [7. Contact](#7-Contact)
 <!-- /TOC -->
 
