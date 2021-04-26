@@ -55,9 +55,9 @@ Nous avons donc conçu un circuit électronique qui nous permet de mesurer en so
 La tension aux bornes du capteur étant très faible, du fait que la résistance du capteur soit très grande, il nous faut rajouter un amplificateur transimpédance afin que la tension de sortie du circuit électronique soit assez grande et donc mesurable.
 Notons que le gain de cet amplificateur dépend du rapport R3/R2, nous avons choisi ce rapport comme étant égal à 100, mais nous pourrions choisir autre chose si nous voulons modifier la plage de résistance à mesurer.
 
-Une fois les tests réalisés, nous avons lancé l’impression de notre circuit via une photolithographie extrême ultraviolette (sous masque), puis après utilisation d’une solution dite de développement, nous avons procédé au perçage permettant le soudage des composants.
+Une fois les tests réalisés, nous avons lancé l’impression de notre circuit via une photolithographie extrême ultraviolette (sous masque), puis après utilisation d’une solution dite de développement, nous avons procédé au perçage du PCB, permettant le soudage des composants.
 
-Le détail de la schématique du circuit électronique est visible dans le dossier “KiCad”, où l’on présente la conception de l’ensemble du circuit électronique.
+Le détail de la schématique du circuit électronique est visible dans le dossier “Kicad”, où l’on présente la conception de l’ensemble du circuit électronique.
 
 # 4. Application Android
 L’idée de ce projet étant de mesurer la variation de résistance de nos capteurs en fonction de la concentration de Graphite, pour plus de confort et de lisibilité de nos mesures, nous avons réalisé une Application Android via le logiciel MIT App Inventor : http://ai2.appinventor.mit.edu . 
