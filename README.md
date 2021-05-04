@@ -43,7 +43,7 @@ Notons que ce code n’utilise pas l’encodeur rotatoire. En effet, lorsque nou
 De plus, la partie du code utilisant l’encodeur rotatoire est bien présente afin de réaliser un menu sur l’OLED. Mais le code n’est pas terminé, et demande encore quelques ajustements pour être fonctionnel.
 
 
-# 3. Kicad
+# 3. KiCad
 Nous avons utilisé le logiciel KiCad afin de réaliser la “shield”, qui nous permettra de mesurer la résistance de nos capteurs. Avec KiCad, nous sommes en mesure de simuler des circuits électroniques avant de lancer les impressions de notre PCB. 
 Nous avons donc conçu un circuit électronique qui nous permet de mesurer en sortie du circuit une valeur de tension proportionnelle à la valeur de la résistance mesurée. Nous pouvons donc remonter à la résistance du capteur. Pour celà, nous y avons placé les composants ci-dessous : 
 
@@ -62,7 +62,7 @@ Le détail de la schématique du circuit électronique est visible dans le dossi
 
 # 4. Application Android
 L’idée de ce projet étant de mesurer la variation de résistance de nos capteurs en fonction de la concentration de Graphite, pour plus de confort et de lisibilité de nos mesures, nous avons réalisé une Application Android via le logiciel MIT App Inventor : http://ai2.appinventor.mit.edu . 
-Celle-ci assure la connexion Bluetooth avec notre Shield, affiche la valeur de la tension et de la résistance mesurée en temps réel et trace également l’évolution de la résistance du capteur mesuré en fonction du temps. 
+Celle-ci assure la connexion Bluetooth avec notre Shield, affiche la valeur de la tension et de la résistance mesurée en temps réel et trace également l’évolution de la résistance du capteur mesurée en fonction du temps. 
 
 Vous pourrez trouver le code à insérer sur le site internet de MIT App Inventor dans le dossier “APK”.
 
@@ -70,7 +70,7 @@ Vous pourrez trouver le code à insérer sur le site internet de MIT App Invento
 
 Nous avons créé plusieurs capteurs, en les "coloriant" avec divers types de crayons à papier (HB,B,...). Chaque capteur possède, avec le type de crayon en question, sa propre résistance avant et pendant la déformation. Nous avons pu avoir des résultats sur les crayons à papier B et HB.
 
-Nous présentons sur le fichier “**curve.png**” 2 courbes présentant la variation de la résistance du capteur en fonction de sa déformation pour un capteur avec un graphite B et un capteur avec un graphite HB.
+Nous présentons sur le fichier “**curve.png**” deux courbes présentant la variation de la résistance du capteur en fonction de sa déformation pour un capteur avec un graphite B et un capteur avec un graphite HB.
 
 Nous observons une petite tendance, les capteurs de type “HB” ont une résistance qui évoluent plus rapidement avec la déformation que les capteurs de type “B”.
 Nous avons comparé cette tendance aux mêmes courbes réalisées dans l’article de recherche “**Pencil_Drawn_Strain_Gauges**” par un groupe de chercheurs, et nous avons observé cette même tendance pour les capteurs de type “B” et les capteurs de type “HB”.
@@ -86,7 +86,7 @@ Tout d’abord, il nous faudrait refaire un PCB avec un meilleur soudage pour qu
 Par ailleurs, le problème majeur de notre capteur est qu’il est à usage unique, car trop fragile. A chaque fois que nous testons un capteur, nous déformons sa résistance de base de manière irréversible. Il faudrait donc dessiner le graphite sur un matériau  qui peut se déformer de manière réversible, mais tout de même assez souple pour pouvoir le déformer.
 
 De plus, nous avons constaté que le choix du gain de l'amplificateur transimpédance est très important pour nos données. Nous avons fait le choix de poser R3/R2 = 100, avec R3 = 100 kOhms, et R2 = 1 kOhm. En réalité, si nous modifions ce gain, nous pouvons observer des plages de résistance différentes. Nous avons observé une tendance expérimentale, plus la résistance est faible, plus la modification de résistance due à la courbure est observable. Ainsi, nous avons pensé à la possibilité de modifier R2 afin de modifier la plage de valeur de la résistance du capteur.
-Les résistances que nous avons utilisé sont des résistances ¼ de Watt, il faudra donc faire attention à ne pas prendre des résistances trop faibles afin de ne pas les surchauffer. Nous proposons sur le tableau “**different_choices_of_resistor**” 4 valeurs différentes de résistance choisies pour R2, avec la valeur minimale du capteur que l’on pourrait mesurer, ainsi que la tension maximale que l’on peut lui appliquer.
+Les résistances que nous avons utilisé sont des résistances ¼ de Watt, il faudra donc faire attention à ne pas prendre des résistances trop faibles afin de ne pas les surchauffer. Nous proposons sur le tableau “**different_choices_of_resistor**” quatre valeurs différentes de résistance choisies pour R2, avec la valeur minimale du capteur que l’on pourrait mesurer, ainsi que la tension maximale que l’on peut lui appliquer.
 
 La tension que voit la résistance R2 (100 Ohms) dans notre cas est de 5V, car c’est la valeur de tension d’entrée de notre circuit. Cette valeur est la même que la tension maximale que la résistance peut supporter. Donc nous nous sommes dit qu’il s’agirait sûrement de la meilleure valeur de R2 possible pour notre dispositif. En soudant une résistance de 500 Ohms pour R2, notre dispositif se verrait davantage optimisé.
 
@@ -94,7 +94,7 @@ Mais il faut retenir que le choix de la résistance aurait un impact sur la plag
 
 # 7. Contact
 
-Etudiant en 4ème année du Génie Physique de l'INSA de Toulouse
+Etudiants en 4ème année du Génie Physique de l'INSA de Toulouse
 
 **Arthur Goualou** : goualou.etud@insa-toulouse.fr
 
